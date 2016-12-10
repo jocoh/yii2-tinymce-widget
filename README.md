@@ -27,6 +27,8 @@ Usage
 
 Once the extension is installed, simply use it in your code by  :
 
+Possible [TinyMCE](http://www.tinymce.com/wiki.php/Configuration) options: 
+
 ```
 use jocoh\tinymce\TinyMce;
 
