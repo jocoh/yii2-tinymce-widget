@@ -4,16 +4,17 @@
      "type": "yii2-extension",
      "keywords": ["yii2","widget","tinimce"],
      "license": "MIT",
+     "version": "1.0-dev",
      "authors": [
           {
                "name": "jocoh",
                "email": "jocoh@inbox.ru"
           }
      ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
           "php": ">=5.4.0",
-          "yiisoft/yii2": ">=2.0.6",
+          "yiisoft/yii2": "2.0.0",
           "tinymce/tinymce": ">= 4"
      },
     
