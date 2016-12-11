@@ -4,16 +4,14 @@
      "type": "yii2-extension",
      "keywords": ["yii2","widget","tinimce"],
      "license": "MIT",
-     "version": "1.0-dev",
      "authors": [
           {
                "name": "jocoh",
                "email": "jocoh@inbox.ru"
           }
      ],
-    "minimum-stability": "dev",
+     
     "require": {
-          "php": ">=5.4.0",
           "yiisoft/yii2": "2.0.0",
           "tinymce/tinymce": ">= 4"
      },
@@ -21,6 +19,16 @@
     "autoload": {
           "psr-4": {
                "jocoh\\tinymce\\": ""
+          }
+     },
+     
+     "extra": {
+        "branch-alias": {
+               "dev-master": "1.0-dev"
+          },
+          "asset-installer-paths": {
+               "npm-asset-library": "vendor/npm",
+               "bower-asset-library": "vendor/bower"
           }
      }
 }
