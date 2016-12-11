@@ -4,6 +4,7 @@
      "type": "yii2-extension",
      "keywords": ["yii2","widget","tinimce"],
      "license": "MIT",
+     "version": "1.0.0",
      "authors": [
           {
                "name": "jocoh",
@@ -20,15 +21,6 @@
           "psr-4": {
                "jocoh\\tinymce\\": ""
           }
-     },
-     
-     "extra": {
-        "branch-alias": {
-               "dev-master": "1.0-dev"
-          },
-          "asset-installer-paths": {
-               "npm-asset-library": "vendor/npm",
-               "bower-asset-library": "vendor/bower"
-          }
      }
+     
 }
